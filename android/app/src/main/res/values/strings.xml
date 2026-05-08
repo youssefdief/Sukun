@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_prayer_next_label">Next Prayer</string>
+    <string name="widget_prayer_next">Next: %1$s</string>
+    <string name="widget_prayer_fajr">Fajr</string>
+    <string name="widget_prayer_dhuhr">Dhuhr</string>
+    <string name="widget_prayer_asr">Asr</string>
+    <string name="widget_prayer_maghrib">Maghrib</string>
+    <string name="widget_prayer_isha">Isha</string>
+    <string name="widget_prayer_open_app">Open Sukun</string>
+    <string name="widget_prayer_sync">Syncing times...</string>
+    <string name="widget_dhikr_title">Daily Inspiration</string>
+</resources>

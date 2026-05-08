@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background_premium"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:padding="0dp">
+
+    <!-- Section 1: Main Next Prayer Info (Takes 3/5 in code, appears on right in RTL) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical|start"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_next_prayer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/widget_prayer_next_label"
+            android:textColor="@color/sukun_primary_fixed"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1" />
+
+        <TextView
+            android:id="@+id/tv_current_prayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="العصر"
+            android:textColor="@color/sukun_on_surface"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tv_next_prayer_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:30"
+                android:textColor="@color/sukun_green"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Section 2: Timeline (Takes 2/5 in code, appears on left in RTL) -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#15000000"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp">
+
+        <!-- Timeline vertical line -->
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/sukun_outline_variant" />
+
+        <!-- Vertical list of 5 prayers -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <!-- Fajr -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView android:id="@+id/tv_fajr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_prayer_fajr" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/dot_fajr" />
+                <TextView android:id="@+id/tv_fajr_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="05:12" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <ImageView android:id="@+id/dot_fajr" android:layout_width="8dp" android:layout_height="8dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/widget_dot_inactive" />
+            </RelativeLayout>
+
+            <!-- Dhuhr -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView android:id="@+id/tv_dhuhr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_prayer_dhuhr" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/dot_dhuhr" />
+                <TextView android:id="@+id/tv_dhuhr_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12:45" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <ImageView android:id="@+id/dot_dhuhr" android:layout_width="8dp" android:layout_height="8dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/widget_dot_inactive" />
+            </RelativeLayout>
+
+            <!-- Asr -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView android:id="@+id/tv_asr_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_prayer_asr" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/dot_asr" />
+                <TextView android:id="@+id/tv_asr_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="15:30" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <ImageView android:id="@+id/dot_asr" android:layout_width="8dp" android:layout_height="8dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/widget_dot_inactive" />
+            </RelativeLayout>
+
+            <!-- Maghrib -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView android:id="@+id/tv_maghrib_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_prayer_maghrib" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/dot_maghrib" />
+                <TextView android:id="@+id/tv_maghrib_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18:20" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <ImageView android:id="@+id/dot_maghrib" android:layout_width="8dp" android:layout_height="8dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/widget_dot_inactive" />
+            </RelativeLayout>
+
+            <!-- Isha -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <TextView android:id="@+id/tv_isha_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_prayer_isha" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/dot_isha" />
+                <TextView android:id="@+id/tv_isha_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="19:50" android:textSize="10sp" android:textColor="@color/sukun_on_surface_variant" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <ImageView android:id="@+id/dot_isha" android:layout_width="8dp" android:layout_height="8dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/widget_dot_inactive" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

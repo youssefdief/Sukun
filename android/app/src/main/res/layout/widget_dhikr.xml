@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background_premium"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_dhikr_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_dhikr_title"
+        android:textColor="@color/sukun_green"
+        android:textSize="11sp"
+        android:letterSpacing="0.1"
+        android:textAllCaps="true"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tv_dhikr_ar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="سُبْحَانَ اللَّهِ"
+        android:textColor="@color/sukun_widget_text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_dhikr_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glory be to Allah"
+        android:textColor="@color/sukun_widget_text_secondary"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textStyle="italic" />
+</LinearLayout>

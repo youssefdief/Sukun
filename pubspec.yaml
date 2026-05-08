@@ -1,0 +1,50 @@
+name: sukun_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.3
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.3
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#121517"
+  adaptive_icon_foreground: "assets/images/logo_foreground.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/quotes.json
+    - assets/images/
+
+  fonts:
+    - family: Thamanyah
+      fonts:
+        - asset: assets/fonts/thmanyahsans-Regular.otf
+        - asset: assets/fonts/thmanyahsans-Bold.otf
+          weight: 700

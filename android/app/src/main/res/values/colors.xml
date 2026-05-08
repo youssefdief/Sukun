@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sukun_green">#7bda9c</color>
+    <color name="sukun_surface_high">#282a2e</color>
+    <color name="sukun_surface_low">#1a1c1f</color>
+    <color name="sukun_on_surface">#e2e2e7</color>
+    <color name="sukun_on_surface_variant">#becabe</color>
+    <color name="sukun_primary_fixed">#97f7b7</color>
+    <color name="sukun_outline_variant">#3f4941</color>
+    <color name="sukun_widget_accent">#7bda9c</color>
+    <color name="sukun_widget_text_primary">#e2e2e7</color>
+    <color name="sukun_widget_text_secondary">#becabe</color>
+    <color name="sukun_widget_bg">#1a1c1f</color>
+	<color name="ic_launcher_background">#121517</color>
+</resources>

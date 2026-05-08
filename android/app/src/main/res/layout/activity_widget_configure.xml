@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A1913"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sukun Widget Configuration"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose what you want to see:"
+        android:textColor="#B0BEC5"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rg_dhikr_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rb_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Inspirations"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#007542"
+            android:checked="true"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/rb_ayah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quranic Ayahs Only"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#007542"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/rb_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Islamic Quotes Only"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#007542"
+            android:padding="12dp" />
+
+        <RadioButton
+            android:id="@+id/rb_dhikr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Dhikr Only"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#007542"
+            android:padding="12dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Widget"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#007542"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+</LinearLayout>

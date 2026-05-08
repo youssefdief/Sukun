@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "ayah",
+    "text_ar": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "text_en": "For indeed, with hardship [will be] ease.",
+    "source_ar": "سورة الشرح ٩٤:٥",
+    "source_en": "Surah Ash-Sharh 94:5"
+  },
+  {
+    "id": 2,
+    "type": "quote",
+    "text_ar": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+    "text_en": "Do not be sad, indeed Allah is with us.",
+    "source_ar": "سورة التوبة ٩:٤٠",
+    "source_en": "Surah At-Tawbah 9:40"
+  },
+  {
+    "id": 3,
+    "type": "ayah",
+    "text_ar": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+    "text_en": "And He is with you wherever you are.",
+    "source_ar": "سورة الحديد ٥٧:٤",
+    "source_en": "Surah Al-Hadid 57:4"
+  },
+  {
+    "id": 4,
+    "type": "dhikr",
+    "text_ar": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+    "text_en": "Glory be to Allah and His is the praise.",
+    "source_ar": "صحيح البخاري",
+    "source_en": "Sahih Al-Bukhari"
+  },
+  {
+    "id": 5,
+    "type": "ayah",
+    "text_ar": "وَاصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا",
+    "text_en": "And be patient for the decision of your Lord, for indeed, you are in Our eyes.",
+    "source_ar": "سورة الطور ٥٢:٤٨",
+    "source_en": "Surah At-Tur 52:48"
+  },
+  {
+    "id": 6,
+    "type": "quote",
+    "text_ar": "مَنْ جَعَلَ الهُمُومَ هَمًّا وَاحِدًا، هَمَّ المَعَادِ، كَفَاهُ اللَّهُ هَمَّ دُنْيَاهُ",
+    "text_en": "Whoever makes all his concerns into one concern, the concern of the Hereafter, Allah will suffice him for his worldly concerns.",
+    "source_ar": "سنن ابن ماجه",
+    "source_en": "Sunan Ibn Majah"
+  },
+  {
+    "id": 7,
+    "type": "ayah",
+    "text_ar": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنِّ الْقُلُوبُ",
+    "text_en": "Unquestionably, by the remembrance of Allah hearts are assured.",
+    "source_ar": "سورة الرعد ١٣:٢٨",
+    "source_en": "Surah Ar-Ra'd 13:28"
+  },
+  {
+    "id": 8,
+    "type": "dhikr",
+    "text_ar": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "text_en": "Sufficient for us is Allah, and [He is] the best Disposer of affairs.",
+    "source_ar": "سورة آل عمران ٣:١٧٣",
+    "source_en": "Surah Ali 'Imran 3:173"
+  },
+  {
+    "id": 9,
+    "type": "ayah",
+    "text_ar": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
+    "text_en": "But My mercy encompasses all things.",
+    "source_ar": "سورة الأعراف ٧:١٥٦",
+    "source_en": "Surah Al-A'raf 7:156"
+  },
+  {
+    "id": 10,
+    "type": "quote",
+    "text_ar": "عَجَبًا لِأَمْرِ الْمُؤْمِنِ إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ",
+    "text_en": "How wonderful is the case of a believer; there is good for him in everything.",
+    "source_ar": "صحيح مسلم",
+    "source_en": "Sahih Muslim"
+  }
+]
